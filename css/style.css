@@ -1,0 +1,29 @@
+
+.main-title {
+  font-size: 10rem;
+  text-align: center;
+  font-family: 'Permanent Marker', cursive;
+}
+
+#main-container {
+  width: 90%;
+  margin: 3rem;
+  display: grid;
+  grid-template-columns: repeat(4, 22.5%);
+  grid-template-rows: 18% 18% 18% 18% 18% 5%;
+  gap: 5% 5%;
+}
+
+.card-title {
+  text-align: center;
+}
+
+.card__name {
+  font-size: 2rem;
+  text-transform: capitalize;
+  text-align: center;
+}
+
+.card__specie {
+  font-size: 2rem;
+}
