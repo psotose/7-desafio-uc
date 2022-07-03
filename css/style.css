@@ -27,3 +27,22 @@
 .card__specie {
   font-size: 2rem;
 }
+
+@media (max-width: 991.98px) {
+  #main-container {
+    grid-template-columns: repeat(2, 46%);
+    grid-template-rows: repeat(10, 22em);
+    gap: 4% 4%;
+  }
+  .main-title {
+    font-size: 6rem;
+  }  
+}
+
+@media (max-width: 576px) { 
+  #main-container {
+    grid-template-columns: 96%;
+    grid-template-rows: repeat(20, 29em);
+    gap: 2% 2%;
+  }
+}
